@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.voidlessstar.modtitle.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "modtitle.refmap.json",
+  "client": [
+    "LoadingOverlayMixin",
+    "ConnectScreenMixin",
+    "LogoRendererMixin",
+    "PauseScreenMixin",
+    "SplashRendererMixin",
+    "GuiHotbarMixin",
+    "GuiAccessor",
+    "GuiHealthFoodSlideMixin",
+    "CaxtonTypefaceProbeMixin",
+    "WindowIconMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
