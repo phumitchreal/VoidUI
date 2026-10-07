@@ -1,16 +1,34 @@
-# VoidUI
+<p align="center">
+  <img src="logo.png" alt="VoidUI Logo" width="400">
+</p>
 
-A client-side UI reskin mod for Minecraft Forge 1.20.1 by Voidlessstar. Replaces the vanilla title/logo screens, splash, HUD hotbar, health/food bars, and window icon with a custom VoidUI style.
+<h1 align="center">VoidUI</h1>
+
+<p align="center">
+  A client-side UI reskin mod for Minecraft Forge 1.20.1<br>
+  by <b>Voidlessstar</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Minecraft-1.20.1-62B47A?style=for-the-badge&logo=minecraft">
+  <img src="https://img.shields.io/badge/Forge-47.3.0-F16436?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk">
+  <img src="https://img.shields.io/badge/Side-Client-9b59b6?style=for-the-badge">
+</p>
+
+---
 
 ## Features
 
-- Custom main-menu logo and splash renderer
-- Custom loading screen and connect screen styling
-- Styled pause screen with custom buttons
-- HUD tweaks: hotbar slide behavior and custom health/food bar animations
-- Custom window icon and mod credits screen
-- Bundled Noto Sans Thai font support for Thai text rendering
-- Glass texture pack assets included
+| Area | What it does |
+|------|--------------|
+| Title screen | Custom logo, wordmark, and splash renderer |
+| Loading & connect | Styled loading overlay and connect screen |
+| Pause screen | Custom buttons and layout |
+| HUD | Hotbar slide behavior, animated health/food bars |
+| Window | Custom icon and mod credits screen |
+| Font | Bundled Noto Sans Thai for Thai text |
+| Textures | Glass texture pack assets included |
 
 ## Requirements
 
@@ -18,28 +36,33 @@ A client-side UI reskin mod for Minecraft Forge 1.20.1 by Voidlessstar. Replaces
 - Minecraft Forge 47.3.0
 - Java 17
 
-Bundled dependencies (jar-in-jar):
-- Caxton 0.6.4
-- BiaoHealthBarX 0.1.0
+Bundled (jar-in-jar): Caxton 0.6.4, BiaoHealthBarX 0.1.0
 
-## Building
+## Installation
+
+1. Install Minecraft Forge 1.20.1 (47.3.0).
+2. Drop the jar into your `mods` folder.
+3. Launch the game — client-side only.
+
+```text
+mods/
+└── VoidUI-forge-1.20.1-1.0.0.jar
+```
+
+## Building from source
 
 ```bash
 ./gradlew build
 ```
 
-Output jar: `build/libs/VoidUI-forge-1.20.1-1.0.0.jar`
+Output: `build/libs/VoidUI-forge-1.20.1-1.0.0.jar`
 
-## Running (dev)
+## Dev run
 
 ```bash
 ./gradlew runClient
 ```
 
-## Installation
-
-Drop the built jar into your `mods` folder alongside Forge 1.20.1. Client-side only.
-
 ## Credits
 
-Made by Voidlessstar. Logo assets in repo root.
+Made by **Voidlessstar**.
